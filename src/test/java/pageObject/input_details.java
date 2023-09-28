@@ -27,7 +27,7 @@ public class input_details extends Base_Class {
 	@FindBy(xpath = "//a[@class='close ng-star-inserted']")
 	WebElement Popup;
 	
-	@FindBy(xpath="//h3[normalize-space()='Please choose your occupation type']")
+	@FindBy(xpath="/html/body/ngb-modal-window/div/div/app-revisit-question/div/div[2]/div/h2")
 	WebElement msg;
 
 	
